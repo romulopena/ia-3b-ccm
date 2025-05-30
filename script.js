@@ -14,7 +14,7 @@ const perguntas = [
             },
             {
                 texto: "Soma e produto",
-                afirmacao: "usando soma e produto voce pode economizar tempo",
+                afirmacao: "usando soma e produto voce pode economizar tempo"
             },
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "alternativa1",
-                afirmacao: "afirmacao1",
+                afirmacao: "afirmacao1"
             },
             {
                 texto: "alternativa2",
-                afirmacao: "afirmacao2",
+                afirmacao: "afirmacao2"
             },
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "alternativa1",
-                afirmacao: "afirmacao1",
+                afirmacao: "afirmacao1"
             },
             {
                 texto: "alternativa2",
-                afirmacao: "afirmacao2",
+                afirmacao: "afirmacao2"
             },
         ]
     },
@@ -55,7 +55,7 @@ function mostraPergunta(){
 }
 function mostraAlternativas(){
     for(const alternativa of perguntaAtual.alternativas){
-        const botaoAlternativa = createElement('button');
+        const botaoAlternativa = createElement("button");
         botaoAlternativa.textContent = alternativa.texto;
         caixaAlternativas.appendChild(botaoAlternativa);
     }
