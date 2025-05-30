@@ -5,15 +5,16 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
-        enunciado: "Pergunta1",
+        enunciado: "Como resolver equação do segundo grau?",
         alternativas: [
             {
-                texto: "alternativa1",
-                afirmacao: "afirmacao1",
+                texto: "aplicar a formula de Bhaskara",
+                afirmacao: "Aplicando a formula de Bhaskara voce pode resolver de forma mais demorada"
+                
             },
             {
-                texto: "alternativa2",
-                afirmacao: "afirmacao2",
+                texto: "Soma e produto",
+                afirmacao: "usando soma e produto voce pode economizar tempo",
             },
         ]
     },
@@ -46,12 +47,17 @@ const perguntas = [
 ]
 let atual = 0;
 let perguntaAtual;
+
 function mostraPergunta(){
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     mostraAlternativas();
 }
 function mostraAlternativas(){
-    //falta esses codigos
+    for(const alternativa of perguntaAtual.alternativas){
+        const botaoAlternativa = createElement('button');
+        botaoAlternativa.textContent = alternativa.texto;
+        caixaAlternativas.appendChild(botaoAlternativa);
+    }
 }
 mostraPergunta();
