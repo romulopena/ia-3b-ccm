@@ -1,13 +1,14 @@
 :root{
-    --cor-fundo: #01080E;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333;
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+    --cor-fundo: #baed0f;
+    --cor-principal: #879a3b ;
+    --cor-secundaria: #52db12a4;
+    --cor-destaque: #111211;
+    --cor-texto: #1d0202;
 }
 
 body{
-    background-color: var(--cor-fundo);
+    background-image: url(tecnologgya.jpg);
+    repe
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
@@ -16,7 +17,7 @@ body{
 }
 
 .caixa-principal{
-    background-color: var(--cor-principal);
+    /*background-color: var(--cor-principal);*/
     width: 90%;
     max-width: 600px;
     text-align: center;
