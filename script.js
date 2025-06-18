@@ -70,6 +70,20 @@ const perguntas = [
             },
         ]
     },
+    {
+        enunciado: "De que forma a evolução da tecnologia na escola pode preparar os alunos para os desafios da sociedade contemporânea, e como isso impacta a inclusão e a equidade no acesso ao conhecimento?",
+        alternativas: [
+            {
+                texto: "A tecnologia na escola equipa alunos com habilidades para a sociedade atual.",
+                afirmacao: "Isso exige inclusão digital para evitar disparidades e garantir equidade no acesso ao conhecimento."
+                
+            },
+            {
+                texto: "Integrar a tecnologia na escola reflete a dinâmica da sociedade conectada.",
+                afirmacao: "É vital preparar jovens para o uso ético da tecnologia, combatendo a desinformação e fortalecendo a participação cívica."
+            },
+        ]
+    },
 ];
 
 let atual = 0;

@@ -7,8 +7,10 @@
 }
 
 body{
-    background-image: url(tecnologgya.jpg);
-    repe
+    /*background-image: url(tecnologgya.jpg);
+    background-repeat: no-repeat;
+    opacity: var(--cor-destaque)*/
+    
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
